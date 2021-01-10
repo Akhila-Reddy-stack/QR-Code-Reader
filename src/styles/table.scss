@@ -1,0 +1,32 @@
+.table-div {
+  border-radius: 4px;
+  box-shadow: 3px 4px 27px -2px #e6e6e6;
+  background: #fff;
+  width: 713px;
+}
+.table {
+  min-width: 97% !important;
+  width: auto !important;
+  margin-left: 1rem;
+}
+td {
+  text-align: center;
+}
+.table th {
+  background: #134a79 !important;
+  vertical-align: initial !important;
+  color: #fff;
+  font-size: 17px !important;
+  font-weight: 600;
+}
+.table td {
+  color: #3a2d2d;
+  text-rendering: optimizeLegibility;
+  font-weight: 600;
+  font-size: 15px !important;
+  border: "1px solid lightgray";
+}
+.table td,
+.table th {
+  padding: 0.35rem 0.75rem;
+}
