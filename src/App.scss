@@ -1,0 +1,102 @@
+.App {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  /* background: url('./hotel_bg.webp'); */
+}
+.wrapper {
+  background: url("./Images/user/qr-bg.jpg") !important;
+  background-size: cover !important;
+  height: 100vh !important;
+  // padding-top: 4rem;
+  padding-bottom:0rem !important;
+  overflow: hidden;
+  // margin-top: 5rem;
+}
+
+body {
+  overflow-x: hidden;
+}
+.parentDisable {
+  position: absolute;
+  background: #000;
+  opacity: 0.8;
+  z-index: 998;
+}
+
+.CButton {
+  background: #1c4e9a !important;
+}
+.CTextColor {
+  color: #1c4e9a !important;
+}
+
+.invalid-field {
+  color: red;
+  font-size: 14pxs;
+}
+
+.fa,
+.fas,
+.far {
+  font-weight: 900;
+  color: #0268ba;
+  padding: 5px;
+}
+
+.form-check .form-check-input.my-error ~ .form-check-label::before {
+  background-color: orangered;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(136, 136, 136);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.notifi-delete-modal {
+  padding: 10rem 4rem;
+}
+.roomImg {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+.scanImg {
+  margin-top: 10rem;
+  height: 35vh;
+}
+.reader {
+  margin: 2rem 3rem;
+}
+.barcode,
+.qrcode {
+  height: 7vh;
+}
+.barcode {
+  margin-left: 5rem;
+  margin-top: 1.4rem;
+}
+.qrcode {
+  margin-top: 1rem;
+}
+.txtcode {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #814ce4b8;
+}
